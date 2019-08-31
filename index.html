@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>pizza shop</title>
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <div class="container bg-warning">
+       <form class="lead">
+           <div class="wrapper">
+           <div class="form-group">
+             <label for="sel1">Select pizza:</label>
+             <select class="form-control" id="sel1" name="sellist1">
+               <option>Margherita</option>
+               <option>Calzone</option>
+               <option>Stromboli</option>
+               <option>Marinara</option>
+               <option>Neapolitant</option>
+               <option>Deep Dish</option>
+             </select>
+             <br>
+             <label for="sel1">Select size:</label>
+             <select class="form-control" id="sel1" name="sellist1">
+               <option>Small</option>
+               <option>Medium</option>
+               <option>Large</option>
+             </select>
+             <br>
+             <label for="sel1">Select Crust:</label>
+             <select class="form-control" id="sel1" name="sellist1">
+               <option>Cripsy</option>
+               <option>Stuffed</option>
+               <option>Gluten-free</option>
+             </select>
+             <br>
+             <label for="sel1">Select Topping:</label>
+             <select class="form-control" id="sel1" name="sellist1">
+               <option>Pepperoni</option>
+               <option>Mushrooms</option>
+               <option>onions</option>
+               <option>Sausage</option>
+               <option>Bacon</option>
+             </select>
+             <button id="add" class="btn btn-outline-primary mt-3">Add</button>
+             <button id="check" class="btn btn-outline-danger mt-3">checkout</button>
+           </div>
+           </div>
+             <br>
+             <div class="finish">
+                   <p>Choose Delivery</p>
+             <div class="form-check">
+               <label class="form-check-label">
+                 <input type="radio" class="form-check-input" name="delivery">Yes
+               </label>
+             </div>
+             <div class="form-check">
+               <label class="form-check-label">
+                 <input type="radio" class="form-check-input" name="delivery">No
+               </label>
+             </div>
+           <button type="submit" class="btn btn-primary">Submit</button>
+       </div>
+         </form>
+   </div>
+   <script src="js/jquery-3.4.1.js" ></script>
+   <script src="js/scripts.js" ></script>
+</body>
+</html>
