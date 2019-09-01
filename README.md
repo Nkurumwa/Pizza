@@ -10,7 +10,7 @@
 Webpage designed to collect user input details ordering pizza. This page has a header for the name of the company, a form for various parts of the pizza, such as toppings and size of pizza, and a submit button for the pizza, which will then reveal the user's order list. As the user adds more pizzas the cart reflects their order and their cart total increases with the pizza prices. At the bottom of the cart there is a button to submit your cart order. When you submit your order you can choose between picking up yourself and Delivery.
 
 ### Below is the live link for this project:
-
+https://nkurumwa.github.io/Pizza/
 
 ### Clicking on the button for more pizza refreshes the page.
 * Example input: User clicks Order More button.
