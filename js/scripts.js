@@ -62,4 +62,45 @@ function Pizza(crust, size) {
         });
         $("#pizzaForm")[0].reset();
       });
-      
+
+      $("button#submitCart").click(function() {
+        $(".pizzaMaker").hide();
+        $("button#submitCart").hide();
+        $(".choiceWell"). show();
+      });
+    
+      $("button#pickup").click(function() {
+        $(".choiceWell").hide();
+        $(".pickupWell").show();
+      });
+    
+      $("button#delivery").click(function() {
+        total += 5;
+        $(".cartTotal").text(total);
+        $(".choiceWell").hide();
+        $(".deliveryWell").show();
+      });
+    
+      $("button#submitPickupForm").click(function() {
+        var userName = $("input#pickupName").val();
+        $(".nameInput").text(userName);
+        $("form#pickupForm").hide();
+        $("#pickupEnd").show()
+      });
+    
+      $("button#submitDeliveryForm").click(function() {
+        var userName = $("input#deliveryName").val();
+        var address = $("input#address").val();
+        var city = $("input#city").val();
+        var county = $("input#county").val();
+        $(".nameInput").text(userName);
+        $(".addressInput").text(address + ", " + city + " " + county);
+        $("form#deliveryForm").hide();
+        $("#deliveryEnd").show();
+      });
+    
+      $("button.reset").click(function() {
+        location.reload();
+      });
+    });
+    
