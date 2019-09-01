@@ -99,3 +99,27 @@
           <button type="button" class="btn btn-success reset">Order More Pizza!</button>
         </div>
       </div>
+      <div class="well deliveryWell text-center">
+        <form id="deliveryForm">
+          <div class="form-group">
+            <label for="name">Enter Name:</label>
+            <input id="deliveryName" class="form-control" type="text">
+            <label for="address">Enter Address:</label>
+            <input id="address" class="form-control" type="text">
+            <label for="city">Enter City:</label>
+            <input id="city" class="form-control" type="text">
+            <label for="county">Enter County:</label>
+            <input id="county" class="form-control" type="text">
+          </div>
+          <button type="button" class="btn btn-danger" id="submitDeliveryForm">Submit</button>
+        </form>
+        <div id="deliveryEnd">
+          <p>Okay! We are sending this order to <span class="nameInput"></span> at <span class="addressInput"></span>.</p>
+          <p>You can expect your order to arrive in 45 minutes.</p>
+          <button type="button" class="btn btn-danger reset">Order More Pizza!</button>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
