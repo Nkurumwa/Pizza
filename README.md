@@ -27,7 +27,7 @@ No currently known bugs.
 
 ### Support and contact details
 If you have any issues or questions please contact me via email.
-Email: eyesicedover@gmail.com
+Email: nkurumwa51@gmail.com
 
 ### Technologies Used
 * HTML
