@@ -50,3 +50,31 @@
           </div>
         </form>
       </div>
+      <div class="well cartWell">
+        <div class="text-center">
+          <h3>Your Cart</h3>
+          <h4>Your Total: $<span class="cartTotal"></span></h4>
+        </div>
+        <div class="row">
+          <div class="col-xs-1">
+          </div>
+          <div class="col-xs-5">
+            <ol id="cart">
+            </ol>
+          </div>
+          <div class="col-xs-5" id="show-pizza">
+            <p id="pizzaListName"></p>
+            <ul>
+              <li>Size: <span class="size"></span></li>
+              <li>Crust: <span class="crust"></span></li>
+              <li>Toppings: <span class="toppings"></span></li>
+              <li>Cost: $<span class="cost"></span></li>
+            </ul>
+          </div>
+          <div class="col-xs-1">
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-danger" id="submitCart">Submit Order</button>
+        </div>
+      </div>
