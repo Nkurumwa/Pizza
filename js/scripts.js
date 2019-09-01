@@ -17,9 +17,15 @@ function Pizza(crust, size) {
     }
   
     for (var i = 0; i < this.toppings.length; i++) {
-      price += 1;
+      price += 2;
     }
-  
+    if (this.crust === "Cripsy"){
+        price += 2;
+    }else if (this.crust=== "Stuffed") {
+        price += 1.5;
+    }else {
+        price += 1;
+    }
     this.price = price;
   }
   Pizza.prototype.toppingsList = function() {
@@ -86,7 +92,7 @@ function Pizza(crust, size) {
         $(".nameInput").text(userName);
         $("form#pickupForm").hide();
         $("#pickupEnd").show()
-        if(pickUpForm===""){
+        if((pickUpForm)===""){
             return "Please enter your details"
         }
       });

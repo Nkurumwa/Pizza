@@ -1,8 +1,4 @@
-body {
-    background-image: url("");
-    background-size: cover;
-  }
-  
+
   .jumbotron {
     font-family: 'Alfa Slab One', cursive;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvsetBkWsetyse_xXTbDyjfxKDfMBxm5BvSqHnb5IskCtmzTZ9JQ");
@@ -16,8 +12,8 @@ body {
   }
   
   .well {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
   }
   
   .qHeader {
