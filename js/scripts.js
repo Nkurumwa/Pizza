@@ -22,3 +22,15 @@ function Pizza(crust, size) {
   
     this.price = price;
   }
+  Pizza.prototype.toppingsList = function() {
+    if (this.toppings.length > 0) {
+        return this.toppings.join(", ");
+    } else {
+      return "None";
+    }
+  }
+  
+  $(document).ready(function() {
+    var total = 0;
+    $(".cartTotal").text(total);
+  
