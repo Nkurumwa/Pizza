@@ -1,4 +1,47 @@
-body{
-    text-align: center;
-    background-color: brown;
-}
+body {
+    background-image: url("../img/bg.png");
+  }
+  
+  .jumbotron {
+    font-family: 'Alfa Slab One', cursive;
+    background-image: url("../img/teak.jpg");
+    background-size: contain;
+    text-shadow: 1px 1px 10px #fff;
+  }
+  
+  .well, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .well {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .qHeader {
+    text-decoration: underline;
+  }
+  
+  .cartItem {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  
+  .cartItem:hover {
+    text-decoration: underline;
+  }
+  
+  .cartWell, .choiceWell, .deliveryWell, .pickupWell, #show-pizza, #pickupEnd, #deliveryEnd {
+    display: none;
+  }
+  
+  button#pickup, button#delivery {
+    margin-left: 33%;
+    margin-right: 33%;
+  }
+  
+  #deliveryCost {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
