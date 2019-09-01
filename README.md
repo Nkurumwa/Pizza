@@ -18,7 +18,7 @@ Webpage designed to collect user input details ordering pizza. This page has a h
 
 ### Setup/Installation Requirements
 * Clone this repository.
-* Ensure that jquery version 3.3.1 is included, as well as bootstrap.css.
+* Ensure that jquery version 3.4.1 is included or any other new version that will come out, as well as bootstrap.css.
 * Open the page in your preferred web browser.
 
 
