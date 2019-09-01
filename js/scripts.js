@@ -86,6 +86,9 @@ function Pizza(crust, size) {
         $(".nameInput").text(userName);
         $("form#pickupForm").hide();
         $("#pickupEnd").show()
+        if(pickUpForm===""){
+            return "Please enter your details"
+        }
       });
     
       $("button#submitDeliveryForm").click(function() {
